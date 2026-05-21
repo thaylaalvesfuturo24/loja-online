@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #0f172a, #1e293b);
+    color: white;
+}
+
+header{
+    background: rgba(0,0,0,0.4);
+    backdrop-filter: blur(10px);
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+header h1{
+    margin: 0;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: #38bdf8;
+}
+
+.produtos{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 50px 20px;
+}
+
+.card{
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.1);
+    width: 260px;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    backdrop-filter: blur(8px);
+    transition: all 0.4s ease;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+
+.card:hover{
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 15px 30px rgba(56,189,248,0.4);
+}
+
+.card img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card h2{
+    margin: 15px 0 10px;
+    font-size: 24px;
+    color: #f8fafc;
+}
+
+.card p{
+    font-size: 22px;
+    color: #22c55e;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+button{
+    background: linear-gradient(45deg, #38bdf8, #0ea5e9);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin-bottom: 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover{
+    background: linear-gradient(45deg, #0ea5e9, #0284c7);
+    transform: scale(1.08);
+}
